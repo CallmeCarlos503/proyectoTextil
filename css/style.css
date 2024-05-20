@@ -4,7 +4,7 @@
 }
 .dimensiones{
     width: 600px;
-    margin-left: 30%;
+    margin-left: 4%;
     text-align: center;
     margin-bottom: 30px;
     border: 1px black solid;
@@ -53,7 +53,27 @@ background-color: black;
 .icono-tabla:hover{
   background-color: blue;
 }
+.tabla-pedidos,td,tr,th{
+    border: 1px black solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.tabla-pedidos td{
+    border: 1px black solid;
 
+}
+.tabla-pedidos th{
+    border: 1px black solid;
+   
+}
+.tabla{
+    position: absolute;
+    text-align: center;
+    left: 680px;
+    bottom: 50%;
+}
 /* Telefonos moviles*/
 @media (max-width:932px){
     .dimensiones{
