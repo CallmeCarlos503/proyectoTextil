@@ -116,9 +116,9 @@
             echo "<td>". $pedidos['id_empleado']. "</td>";
             echo "<td><a href='pedidos.php?id=". $pedidos['id_empleado']. "'>Eliminar</a></td>";
             //hacer un boton llamado editar, transportara todos los datos a edit.php, los mostrara y los modificara
-            echo "<td><a href='edit.php?id=". $pedidos['id_empleado']. "'>Editar</a></td>";
+            echo "<td><a href='edit.php?id=". $pedidos['id_empleado']. "&solicitante=". $pedidos['solicitante']."' >Editar</a></td>";
             
-            
+
             echo "</tr>";
         }
         echo "</table>";
@@ -135,8 +135,7 @@
 
     }
     ?>
-    
-
+    print("")
     <?php include_once('../templates/footer.php'); ?>
 </body>
 
